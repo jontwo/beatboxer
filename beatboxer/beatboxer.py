@@ -106,7 +106,7 @@ class BeatBoxer:
         """
         if new_base_note is not None:
             if bool(new_base_note & (new_base_note - 1)) or not new_base_note:
-                raise Exception("base_note can't be {}. ".format(base_note) +
+                raise Exception("base_note can't be {}. ".format(new_base_note) +
                     'It must be a power of 2.')
 
             self.base_note = new_base_note

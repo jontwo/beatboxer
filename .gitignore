@@ -12,3 +12,5 @@ conda
 *.pyc
 *.ipynb
 *.bat
+.DS_Store
+
